@@ -3,8 +3,6 @@ name = "coreos-metadata"
 version = "0.0.0"
 authors = ["Alex Crawford <alex.crawford@coreos.com>"]
 
-[dependencies.clap]
-path = "vendor/clap-1.1.6"
-
-[dependencies.hyper]
-path = "vendor/hyper-0.6.8"
+[dependencies]
+clap = "1.5.5"
+hyper = "0.7.2"
