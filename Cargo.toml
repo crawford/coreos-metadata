@@ -5,4 +5,4 @@ authors = ["Alex Crawford <alex.crawford@coreos.com>"]
 
 [dependencies]
 clap = "*"
-hyper = "*"
+hyper = { version = "*", default-features = false }
